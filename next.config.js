@@ -1,4 +1,5 @@
 /** @type {import('next').NextConfig} */
+
 const nextConfig = {
   eslint: {
     dirs: ['src'],
@@ -6,7 +7,9 @@ const nextConfig = {
 
   reactStrictMode: true,
   swcMinify: true,
-
+  compiler: {
+    styledComponents: true,
+  },
   // Uncoment to add domain whitelist
   // images: {
   //   domains: [
