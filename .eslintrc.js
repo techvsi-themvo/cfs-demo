@@ -77,6 +77,7 @@ module.exports = {
     ],
     //#endregion  //*======== Import Sort ===========
   },
+  ignorePatterns: ['!.storybook'],
   globals: {
     React: true,
     JSX: true,
