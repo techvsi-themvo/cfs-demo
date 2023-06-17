@@ -34,20 +34,6 @@ module.exports = {
       '@components': path.resolve(__dirname, '../components'),
       '@src': path.resolve(__dirname, '../src'),
     };
-    // config.module.rules.push({
-    //   test: /\.(ts|tsx)$/,
-    //   use: [
-    //     {
-    //       loader: 'babel-loader',
-    //       options: {
-    //         presets: [
-    //           ['next/babel', { 'preset-react': { runtime: 'automatic' } }],
-    //         ],
-    //         plugins: ['babel-plugin-macros'],
-    //       },
-    //     },
-    //   ],
-    // });
     return config;
   },
 };

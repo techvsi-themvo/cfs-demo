@@ -6,9 +6,8 @@ export default function Document() {
       <Head>
         <link
           rel='preload'
-          href='/fonts/inter-var-latin.woff2'
-          as='font'
-          type='font/woff2'
+          href='/fonts/Roboto-Regular.ttf'
+          type='font/ttf'
           crossOrigin='anonymous'
         />
       </Head>
