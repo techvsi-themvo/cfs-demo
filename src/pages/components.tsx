@@ -10,15 +10,15 @@ import {
   HiPlus,
 } from 'react-icons/hi';
 
-import Button from '@/components/buttons/Button';
-import IconButton from '@/components/buttons/IconButton';
-import TextButton from '@/components/buttons/TextButton';
+import Button from '@/components/atoms/buttons/Button';
+import IconButton from '@/components/atoms/buttons/IconButton';
+import TextButton from '@/components/atoms/buttons/TextButton';
 import Layout from '@/components/layout/Layout';
-import ArrowLink from '@/components/links/ArrowLink';
-import ButtonLink from '@/components/links/ButtonLink';
-import PrimaryLink from '@/components/links/PrimaryLink';
-import UnderlineLink from '@/components/links/UnderlineLink';
-import UnstyledLink from '@/components/links/UnstyledLink';
+import ArrowLink from '@/components/links_old/ArrowLink';
+import ButtonLink from '@/components/links_old/ButtonLink';
+import PrimaryLink from '@/components/links_old/PrimaryLink';
+import UnderlineLink from '@/components/links_old/UnderlineLink';
+import UnstyledLink from '@/components/links_old/UnstyledLink';
 import NextImage from '@/components/NextImage';
 import Seo from '@/components/Seo';
 import Skeleton from '@/components/Skeleton';

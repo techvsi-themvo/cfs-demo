@@ -6,24 +6,52 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        primary: ['Inter', ...defaultTheme.fontFamily.sans],
+        primary: ['Roboto', ...defaultTheme.fontFamily.sans],
       },
       colors: {
         primary: {
-          // Customize it on globals.css :root
-          50: 'rgb(var(--tw-color-primary-50) / <alpha-value>)',
-          100: 'rgb(var(--tw-color-primary-100) / <alpha-value>)',
-          200: 'rgb(var(--tw-color-primary-200) / <alpha-value>)',
-          300: 'rgb(var(--tw-color-primary-300) / <alpha-value>)',
-          400: 'rgb(var(--tw-color-primary-400) / <alpha-value>)',
-          500: 'rgb(var(--tw-color-primary-500) / <alpha-value>)',
-          600: 'rgb(var(--tw-color-primary-600) / <alpha-value>)',
-          700: 'rgb(var(--tw-color-primary-700) / <alpha-value>)',
-          800: 'rgb(var(--tw-color-primary-800) / <alpha-value>)',
-          900: 'rgb(var(--tw-color-primary-900) / <alpha-value>)',
-          950: 'rgb(var(--tw-color-primary-950) / <alpha-value>)',
+          magenta: '#B00052',
+          magenta_hover: '#90084A',
+          green: '#A2C13A',
+        },
+        secondary: {
+          dark_turquoise: '#2D6F76',
+          light_turquoise: '#86A1A7',
+          lime_daiquiri: '#DCEBDB',
+        },
+        page_fill: {
+          neutral: '#F9F9F9',
+          white: '#ffffff',
+          lime: '#F8F9FA',
+        },
+        visualisation: {
+          dark: '#2D6F76',
+          light: '#86A1A7',
+          green: '#A2C13A',
+          magenta: '#AB0052',
+        },
+        semantics: {
+          success: '#617763',
+          pending: '#BF6E12',
+          error: '#BB3E45',
+          success_5: 'rgba(97, 119, 99, 0.05)',
+          pending_5: 'rgba(163, 98, 24, 0.05)',
+          error_5: 'rgba(187, 62, 69, 0.05)',
+        },
+        neutral: {
+          500: '#585A5C',
+          400: '#71767A',
+          300: '#9299A0',
+          200: '#CED4DA',
+          100: '#EEF1F3',
+          50: '#F9F9F9',
         },
         dark: '#222222',
+        white: '#FFFFFF',
+      },
+      boxShadow: {
+        cart_shadow: '0px 8px 24px rgba(88, 90, 92, 0.05)',
+        data_hover: '0px 4px 16px rgba(88, 90, 92, 0.2)',
       },
       keyframes: {
         flicker: {
@@ -49,6 +77,12 @@ export default {
       animation: {
         flicker: 'flicker 3s linear infinite',
         shimmer: 'shimmer 1.3s linear infinite',
+      },
+      screens: {
+        sm: { max: '640px' },
+        md: { max: '770px', min: '641px' },
+        lg: { max: '1024px', min: '771px' },
+        xl: { max: '1300px', min: '1025px' },
       },
     },
   },
